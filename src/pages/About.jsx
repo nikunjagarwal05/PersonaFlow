@@ -10,7 +10,7 @@ const About = () => {
           <span className="inline-block text-7xl mb-4">👋</span>
           <h1 className="text-4xl sm:text-5xl font-extrabold text-accent dark:text-accent-light mb-4">Welcome to PersonaFlow</h1>
           <p className="text-lg text-gray-700 dark:text-gray-200 max-w-2xl mb-6">
-            PersonaFlow is a modern, privacy-first user management tool designed for individuals and teams who want a simple, secure, and efficient way to manage user information—right in your browser.
+            PersonaFlow is a modern, privacy-first user management tool designed for individuals and teams who want a simple, secure, and efficient way to manage user information directly in their browser.
           </p>
         </div>
       </section>
@@ -20,9 +20,9 @@ const About = () => {
         {/* Add Users Feature */}
         <div className="bg-white dark:bg-gray-800 card p-8 flex flex-col items-center text-center">
           <span className="text-5xl mb-3">📝</span>
-          <h2 className="text-2xl font-bold text-accent dark:text-accent-light mb-2">Add Users</h2>
+          <h2 className="text-2xl font-bold text-accent dark:text-accent-light mb-2">Add User</h2>
           <p className="text-gray-700 dark:text-gray-200">
-            Quickly add new users to your local database with our intuitive form. Each entry is validated for accuracy, ensuring your records are always clean and reliable. Whether you're managing a team, a classroom, or your own contacts, adding users is fast, easy, and secure.
+            Add new users to your local database instantly with our intuitive form. Each entry is validated for accuracy, ensuring your records are always clean and reliable. Whether you're managing a team, a class, or your own contacts, adding users is fast, easy, and secure.
           </p>
         </div>
         {/* View Users Feature */}
