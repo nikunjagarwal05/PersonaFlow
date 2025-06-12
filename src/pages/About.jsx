@@ -43,6 +43,11 @@ const About = () => {
         </p>
         <span className="inline-block text-4xl">🚀</span>
       </section>
+      
+      <div className='flex flex-col items-end justify-end gap-2 border-t-2 border-[#243d52] p-8 bg-[#1b1e47a9]'>
+        <p className='text-sm'>Visit the Translated website ?</p>
+        <p onClick={() => window.location.href = 'https://persona-flow-git-translation-nikunj-agarwals-projects.vercel.app/'} className='text-white text-2xl border-2 border-white px-4 py-2 cursor-pointer rounded-2xl bg-[#2a4668] hover:bg-[#5d1c1c]'>Go to page</p>
+      </div>
     </div>
   );
 };
